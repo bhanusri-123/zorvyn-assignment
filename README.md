@@ -357,7 +357,7 @@ The entire dashboard lives in one file — `FinanceDashboard.jsx`. This was an i
 
 ### No External State Library
 
-React's built-in `useState` and `useEffect` are used throughout. Adding Redux, Zustand, or Context API would have been over-engineering for this scope. The state is flat, co-located, and easy to trace — which is the right call for a dashboard of this size.
+React's built-in `useState` and `useEffect` are used throughout. Adding Redux, Zustand, or Context API would have been over-engineering for this scope. The state is flat, co-located, and easy to trace which is the right call for a dashboard of this size.
 
 ### Tailwind CSS over CSS Modules
 
