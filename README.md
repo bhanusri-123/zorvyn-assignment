@@ -195,7 +195,7 @@ node -v
 npm -v
 ```
 
----
+
 
 ### Step 1 — Clone the Repository
 
@@ -204,7 +204,7 @@ git clone https://github.com/YOUR_USERNAME/zorvyn-assignment.git
 cd zorvyn-assignment
 ```
 
----
+
 
 ### Step 2 — Install Dependencies
 
@@ -212,7 +212,6 @@ cd zorvyn-assignment
 npm install
 ```
 
----
 
 ### Step 3 — Install Recharts
 
@@ -220,7 +219,7 @@ npm install
 npm install recharts
 ```
 
----
+
 
 ### Step 4 — Install Tailwind CSS
 
@@ -231,7 +230,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
 ```
 
----
+
 
 ### Step 5 — Configure Tailwind
 
@@ -259,7 +258,7 @@ Open `src/index.css` and replace all contents with:
 @tailwind utilities;
 ```
 
----
+
 
 ### Step 6 — Add the Dashboard Component
 
@@ -277,7 +276,7 @@ function App() {
 export default App
 ```
 
----
+
 
 ### Step 7 — Run the Development Server
 
@@ -292,17 +291,6 @@ http://localhost:5173
 ```
 
 The dashboard should be live and fully functional.
-
----
-
-### Common Issues
-
-| Problem | Fix |
-|---|---|
-| `could not determine executable to run` on `npx tailwindcss init` | Run `npm install -D tailwindcss@3 postcss autoprefixer` first, then retry |
-| Styles not applying | Check that `index.css` has the three `@tailwind` directives and is imported in `main.jsx` |
-| Charts not rendering | Run `npm install recharts` to make sure the package is installed |
-| Date shows `######` in Excel export | Double-click the column A border in Excel to auto-fit the width |
 
 ---
 
@@ -503,5 +491,3 @@ To customize the URL, go to **Project Settings → Domains** in the Vercel dashb
 
 **Venigalla Bhanusri**  
 Frontend Developer Intern Applicant
-
-*This project was built purely for evaluation purposes as part of a Frontend Developer Intern assignment. All financial data shown is mock/static and does not represent real transactions.*
