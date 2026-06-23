@@ -1,4 +1,4 @@
-# Zorvyn — Finance Dashboard
+# Finance Dashboard
 
 > A modern, responsive finance dashboard built as part of a Frontend Developer Intern assignment. Designed to feel like a real fintech product with intelligent insights, interactive charts, role-based UI, and a built-in AI assistant which operates entirely on the frontend.
 
